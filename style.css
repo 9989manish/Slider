@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 60%;
+    height: 500px;
+    border: 2px solid black;
+    margin-left: 20%;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.control{
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+
+}
+.control button{
+    width: 6rem;
+    border-radius: .5rem;
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}
+button:active{
+    background-color: rgb(82, 79, 79);
+    color: white;
+}
